@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Todolist from './components/Todolist';
+import Header from './components/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <Header></Header>
+    <br/>
+    <br/>
+    {/* <App /> */}
+    <br/>
+    <Todolist></Todolist>
   </React.StrictMode>
 );
 
